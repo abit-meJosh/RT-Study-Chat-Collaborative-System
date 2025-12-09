@@ -1,0 +1,169 @@
+/* ===============================
+   GLOBAL STYLE (Grey Modern Theme)
+================================*/
+body {
+  font-family: Arial, sans-serif;
+  background: #d9d9d9; /* soft grey background */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Main container for login/register/rooms */
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 60px auto;
+  background: #f2f2f2; /* light grey */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Page titles */
+h2,
+h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* ===============================
+   INPUTS & BUTTONS
+================================*/
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  background: #ffffff;
+  font-size: 15px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #555; /* dark grey */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #444;
+}
+
+/* Links */
+a {
+  color: #333;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+}
+
+/* ===============================
+   DASHBOARD LAYOUT
+================================*/
+.dashboard-wrapper {
+  width: 95%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.section-box {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* ===============================
+   CHAT BOX
+================================*/
+#chatBox {
+  border: 1px solid #aaa;
+  background: #ffffff;
+  height: 250px;
+  overflow-y: scroll;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* Chat message bubbles */
+#chatBox p {
+  background: #e0e0e0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* ===============================
+   NOTES
+================================*/
+#noteArea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  background: #ffffff;
+}
+
+/* ===============================
+   TODO LIST
+================================*/
+#todoList {
+  border: 1px solid #aaa;
+  background: #ffffff;
+  height: 250px;
+  overflow-y: scroll;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+#todoList li {
+  background: #e6e6e6;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+/* SMALL BUTTONS IN TODO */
+#todoList button {
+  width: auto;
+  padding: 5px 10px;
+  background: #666;
+  font-size: 12px;
+}
+
+#todoList button:hover {
+  background: #444;
+}
+
+/* Small text */
+small {
+  color: #555;
+  font-size: 11px;
+}
+
+/* ===============================
+   MOBILE
+================================*/
+@media (max-width: 700px) {
+  .dashboard-wrapper {
+    width: 95%;
+  }
+}
